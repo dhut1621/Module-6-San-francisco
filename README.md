@@ -45,11 +45,10 @@ Note that your resulting plot should appear similar to the following image:
 
 A screenshot depicts an example of the resulting bar chart.
 
-Answer the following question:
+![image](https://user-images.githubusercontent.com/107014664/188939155-1f9ce57c-1cbc-473b-b05c-c0d7660351be.png)
 
-What’s the overall trend in housing units over the period that you’re analyzing?
-Calculate and Plot the Average Sale Prices per Square Foot
-For this part of the assignment, use numerical and visual aggregation to calculate the average prices per square foot, and then visualize the results as a bar chart. To do so, complete the following steps:
+
+For this part, use numerical and visual aggregation to calculate the average prices per square foot, and then visualize the results as a bar chart. To do so, complete the following steps:
 
 Group the data by year, and then average the results. What’s the lowest gross rent that’s reported for the years that the DataFrame includes?
 
@@ -64,11 +63,6 @@ Note that your resulting plot should appear similar to the following image:
 
 A screenshot depicts an example of the resulting plot.
 
-Use both the prices_square_foot_by_year DataFrame and interactive plots to answer the following questions:
-
-Did any year experience a drop in the average sale price per square foot compared to the previous year?
-
-If so, did the gross rent increase or decrease during that year?
 
 Compare the Average Sale Prices by Neighborhood
 For this part of the assignment, use interactive visualizations and widgets to explore the average sale price per square foot by neighborhood. To do so, complete the following steps:
@@ -105,5 +99,9 @@ Note that your resulting plot should appear similar to the following image:
 
 
 ![image](https://user-images.githubusercontent.com/107014664/188938641-9b63a639-e21d-43ba-83d9-b67f72cf3464.png)
+
+Licenses
+----
+UW Fintech
 
 
