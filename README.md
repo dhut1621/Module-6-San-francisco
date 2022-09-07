@@ -8,7 +8,6 @@ Your job is to use your data visualization skills, including aggregation, intera
 
 What You're Creating
 --- 
-you’ll need to create and submit the following deliverable:
 
 A Jupyter notebook that contains your analysis of the housing rental market data for San Francisco. The analysis will be complete with professionally styled and formatted interactive visualizations.
 Remember to upload your Jupyter notebook for this assignment to your GitHub repository. Make sure to update the README.md file to explain your project and any information that’s needed to interact with your plots.
