@@ -1,27 +1,26 @@
 # Module-6-San-francisco
-Decorative image.
+
 Background
+---
 Proptech, the application of technology to real-estate markets, is an innovative domain in the fintech industry. Assume that you’re an analyst at a proptech company that wants to offer an instant, one-click service for people to buy properties and then rent them. The company wants to have a trial of this offering in the San Francisco real-estate market. If the service proves popular, they can then expand to other markets.
 
 Your job is to use your data visualization skills, including aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities.
 
 What You're Creating
-For this Challenge assignment, you’ll need to create and submit the following deliverable:
+--- 
+you’ll need to create and submit the following deliverable:
 
 A Jupyter notebook that contains your analysis of the housing rental market data for San Francisco. The analysis will be complete with professionally styled and formatted interactive visualizations.
 Remember to upload your Jupyter notebook for this assignment to your GitHub repository. Make sure to update the README.md file to explain your project and any information that’s needed to interact with your plots.
 
-Files
-Download the following files to help you get started:
-
-Module 6 Challenge files
 
 Instructions
+---
 Use the san_francisco_housing.ipynb notebook to visualize and analyze the real-estate data.
 
-Note that this assignment requires you to create a visualization by using hvPlot and GeoViews. Additionally, you need to read the sfo_neighborhoods_census_data.csv file from the Resources folder into the notebook and create the DataFrame that you’ll use in the analysis.
+Note that this requires you to create a visualization by using hvPlot and GeoViews. Additionally, you need to read the sfo_neighborhoods_census_data.csv file from the Resources folder into the notebook and create the DataFrame that you’ll use in the analysis.
 
-The main task in this Challenge is to visualize and analyze the real-estate data in your Jupyter notebook. Use the san_francisco_housing.ipynb notebook to complete the following tasks:
+The main task  is to visualize and analyze the real-estate data in your Jupyter notebook. Use the san_francisco_housing.ipynb notebook to complete the following tasks:
 
 Calculate and plot the housing units per year.
 
@@ -86,11 +85,12 @@ Note that your resulting plot should appear similar to the following image:
 
 A screenshot depicts an example of the resulting plot.
 
+![image](https://user-images.githubusercontent.com/107014664/188938861-5c6f0551-1085-4541-83a4-d9d2f2d0a049.png)
+
+
 Use the interactive visualization to answer the following question:
 
-For the Anza Vista neighborhood, is the average sale price per square foot for 2016 more or less than the price that’s listed for 2012?
-Build an Interactive Neighborhood Map
-For this part of the assignment, explore the geospatial relationships in the data by using interactive visualizations with hvPlot and GeoViews. To build your map, use the sfo_data_df DataFrame (created during the initial import), which includes the neighborhood location data with the average prices. To do all this, complete the following steps:
+For this part, explore the geospatial relationships in the data by using interactive visualizations with hvPlot and GeoViews. To build your map, use the sfo_data_df DataFrame (created during the initial import), which includes the neighborhood location data with the average prices. To do all this, complete the following steps:
 
 Read the neighborhood_coordinates.csv file from the Resources folder into the notebook, and create a DataFrame named neighborhood_locations_df. Be sure to set the index_col of the DataFrame as “Neighborhood”.
 
@@ -98,19 +98,12 @@ Using the original sfo_data_df Dataframe, create a DataFrame named all_neighborh
 
 Review the two code cells that concatenate the neighborhood_locations_df DataFrame with the all_neighborhood_info_df DataFrame. Note that the first cell uses the Pandas concat function (Links to an external site.) to create a DataFrame named all_neighborhoods_df. The second cell cleans the data and sets the “Neighborhood” column. Be sure to run these cells to create the all_neighborhoods_df DataFrame, which you’ll need to create the geospatial visualization.
 
-Using hvPlot with GeoViews enabled, create a points plot for the all_neighborhoods_df DataFrame. Be sure to do the following:
+Using hvPlot with GeoViews enabled, create a points plot for the all_neighborhoods_df
 
-Set the size parameter to “sale_price_sqr_foot”.
-
-Set the color parameter to “gross_rent”.
-
-Set the frame_width parameter to 700.
-
-Set the frame_height parameter to 500.
-
-Include a descriptive title.
 
 Note that your resulting plot should appear similar to the following image:
 
-A screenshot depicts an example of a scatter plot created with hvPlot and GeoViews.
+
+![image](https://user-images.githubusercontent.com/107014664/188938641-9b63a639-e21d-43ba-83d9-b67f72cf3464.png)
+
 
